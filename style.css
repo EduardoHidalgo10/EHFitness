@@ -1,0 +1,245 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth !important;
+}
+
+body {
+    background-color: rgb(19, 18, 18);
+}
+
+.stick {
+    position: fixed;
+    width: 100%;
+    height: 320px;
+    z-index: 9999;
+}
+
+.Logo {
+    color: rgb(236, 170, 46);
+}
+
+#navbar-brand {
+    font-size: large;
+}
+
+.container {
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+
+#Beneficios h3 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.carousel-inner>.item>img {
+    width: 100%;
+    height: 500px;
+}
+
+.carousel-inner>p {
+    font-size: 50%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 40%;
+    padding: 14px 10px 18px 10px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    position: relative;
+    background-color: rgb(92, 91, 91);
+}
+
+#card-container .card-title {
+    color: #fff;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card .card-img-top {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+}
+
+#card-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#card-container .card-text {
+    color: #fff;
+}
+
+.card-img-top {
+    height: 15rem;
+    object-fit: cover;
+}
+
+#Recomendaciones h3 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.counter {
+    background-color: rgb(19, 18, 18);
+    text-align: center;
+}
+
+.vasos-agua,
+.horas-sueno,
+.horas-entrenamiento,
+.pasos-dia {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.counter-count {
+    font-size: 18px;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    line-height: 92px;
+    width: 92px;
+    height: 92px;
+    display: inline-block;
+}
+
+i,
+.agua-p,
+.sueno-p,
+.entrenamiento-p,
+.pasos-p {
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 34px;
+}
+
+#Testimonios h3 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.card-body #card-img-top {
+    width: 100%;
+}
+
+#Testimonios .card {
+    color: #fff;
+}
+
+.Testimonios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card .card-img-top {
+    max-width: 100%;
+}
+
+#Nosotros {
+    background-color: #f8f8f8;
+    color: #333;
+    opacity: 1;
+}
+
+#Nosotros h3 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+    color: #333;
+}
+
+#Nosotros i {
+    color: rgb(236, 170, 46);
+}
+
+#Contacto {
+    background-color: #f8f8f8;
+    ;
+    color: #333;
+}
+
+#Contacto h3 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    color: #333;
+}
+
+@media (max-width:1200px) {
+    header,
+    footer,
+    .container #Consejos,
+    #Beneficios .card-container .card,
+    #Recomendaciones,
+    #Testimonios .card,
+    #Nosotros,
+    #Contacto {
+        max-width: 100%;
+        display: block;
+    }
+}
+
+@media (max-width:992px) {
+    header,
+    footer,
+    .container #Consejos,
+    #Beneficios .card-container .card,
+    #Recomendaciones,
+    #Testimonios .card,
+    #Nosotros,
+    #Contacto {
+        max-width: 100%;
+        display: block;
+    }
+}
+
+@media (max-width:768px) {
+    header,
+    footer,
+    .container #Consejos,
+    #Beneficios .card,
+    #Recomendaciones,
+    #Testimonios .card-container .card,
+    #Nosotros,
+    #Contacto {
+        max-width: 100%;
+        display: block;
+    }
+}
+
+@media (max-width:576px) {
+    header,
+    footer,
+    .container #Consejos,
+    #Beneficios .card-container .card,
+    #Recomendaciones,
+    #Testimonios .card,
+    #Nosotros,
+    #Contacto {
+        max-width: 100%;
+        display: block;
+        margin-left: 50px;
+    }
+}
+
+footer {
+    color: #f8f8f8;
+}
