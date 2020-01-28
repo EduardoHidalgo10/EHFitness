@@ -214,6 +214,7 @@ i,
 @media (max-width:768px) {
     header,
     footer,
+    .nav,
     .container #Consejos,
     #Beneficios .card,
     #Recomendaciones,
@@ -225,9 +226,17 @@ i,
     }
 }
 
+@media (max-width:768px) {
+    .nav {
+        max-width: 100%;
+        display: none;
+    }
+}
+
 @media (max-width:576px) {
     header,
     footer,
+    .nav,
     .container #Consejos,
     #Beneficios .card-container .card,
     #Recomendaciones,
@@ -236,7 +245,19 @@ i,
     #Contacto {
         max-width: 100%;
         display: block;
-        margin-left: 50px;
+    }
+}
+
+@media (max-width:576px) {
+    .nav {
+        display: none;
+        max-width: 100%;
+    }
+}
+
+@media(max-width:576px) {
+    .navbar-brand {
+        text-align: center;
     }
 }
 
